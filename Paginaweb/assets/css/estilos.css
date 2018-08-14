@@ -6,13 +6,21 @@ li {
 	list-style: none;
 }
 
-li>a:hover {
-	color: #46FAB4;
+h2{
+    color: #fff;
+	text-decoration: none;
+}
+
+
+h2:hover {
+    color: #46FAB4;
+	text-decoration: none;
 }
 
 h1 {
 	color: #9650FA;
 	font-weight: bold;
+	margin-bottom: 40px;
 }
 
 h2 {
@@ -46,7 +54,6 @@ p {
 	background-color: #9650FA;
 	width: 20%;
 	height: 100%;
-	z-index: 2;
 	position: absolute;
 }
 
@@ -64,11 +71,13 @@ p {
 }
 
 .navbar-default {
-	z-index: 1;
 	border-color: transparent;
 	background-color: #fff;
 	background-image: none;
 	-webkit-box-shadow: none;
+	width: 80%;
+    position: relative;
+    float: right;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -80,18 +89,18 @@ p {
 }
 
 
-.main {
+main {
     width: 80%;
     height: auto;
     float: right;
 }
 
 .row {
-	padding-top: 80px;
+	padding-top: 1%;
 }
 
 .carousel {
-	padding-top: 50px;
+	margin-top: 30px;
 }
 
 .carousel-control.right, .carousel-control.left {
@@ -105,6 +114,7 @@ p {
 
 .carousel-control {
      width: 10%;
+     text-shadow: none;
 }
 
 .glyphicon-chevron-right, .glyphicon-chevron-left {

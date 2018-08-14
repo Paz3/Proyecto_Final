@@ -31,7 +31,7 @@ h3, h4 {
 }
 
 h5 {
-	font-size: 2.5em;
+	font-size: 3em;
 }
 
 ul {
@@ -100,16 +100,27 @@ p {
 
 .carousel-caption {
 	padding-bottom: 150px;
-	padding-left: 100px;
 	text-shadow: none;
 }
 
 .carousel-control {
      width: 10%;
-     
 }
 
 .glyphicon-chevron-right, .glyphicon-chevron-left {
 	color: #9650FA;
 }
+
+.carousel__text--first {
+	padding-left: 100px;
+}
+
+.carousel__text--second {
+	padding-right: 100px;
+}
+
+.carousel__text--third {
+	padding-left: 300px;
+}
+
 

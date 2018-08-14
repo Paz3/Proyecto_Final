@@ -1,8 +1,68 @@
+body {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+li {
+	list-style: none;
+}
+
+li>a:hover {
+	color: #46FAB4;
+}
+
+h3, h4 {
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+h2, h3 {
+	color: #fff;
+	font-weight: bolder;
+}
+
+h2 {
+	font-size: 15px;
+}
+
+ul {
+	padding: 0;
+}
 
 .sidebar {
 	background-color: #9650FA;
-	width: 25%;
-	height: auto;
+	width: 20%;
+	height: 100%;
+	z-index: 2;
+	position: absolute;
+}
+
+.sidebar__elements {
+	padding-left: 33%;
+	padding-top: 100px;
+}
+
+.sidebar__elements--logo {
+	padding-bottom: 15px;
+}
+
+.sidebar__elements--menu {
+	padding-top: 20%;
+}
+
+.navbar-default {
+	z-index: 1;
+	border-color: transparent;
+	background-color: #fff;
+	background-image: none;
+	-webkit-box-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #9650FA;
+}
+
+.navbar-default .navbar-nav>li>a:hover, h4 {
+	color: #46FAB4;
 }
 
 
@@ -12,6 +72,4 @@
 	height: auto;
 }
 
-.row__logo {
-	text-align: center;
-}
+

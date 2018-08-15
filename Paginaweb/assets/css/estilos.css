@@ -2,19 +2,23 @@ body {
 	font-family: 'Fira Sans', sans-serif;
 }
 
+a:-webkit-any-link {
+	text-decoration: none;
+}
+
 li {
 	list-style: none;
 }
 
 h2{
     color: #fff;
-	text-decoration: none;
 }
 
 
 h2:hover {
     color: #46FAB4;
 	text-decoration: none;
+	transition: all 0.3s ease;
 }
 
 h1 {
@@ -27,7 +31,7 @@ h2 {
 	font-size: 15px;
 }
 
-h2, h3 {
+h3 {
 	color: #fff;
 	font-weight: bolder;
 }
@@ -48,6 +52,12 @@ ul {
 
 p {
 	color: #333;
+}
+
+main {
+    width: 80%;
+    height: auto;
+    float: right;
 }
 
 .sidebar {
@@ -89,12 +99,6 @@ p {
 }
 
 
-main {
-    width: 80%;
-    height: auto;
-    float: right;
-}
-
 .row {
 	padding-top: 1%;
 }
@@ -131,6 +135,10 @@ main {
 
 .carousel__text--third {
 	padding-left: 300px;
+}
+
+.container {
+	width: 95%;
 }
 
 

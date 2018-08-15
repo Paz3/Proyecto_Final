@@ -46,6 +46,14 @@ h5 {
 	font-size: 3em;
 }
 
+h6 {
+	color: #9650FA;
+    font-weight: bold;
+    font-size: 2em;
+    float: right;
+    margin: 0;
+}
+
 ul {
 	padding: 0;
 }
@@ -59,6 +67,13 @@ main {
     height: auto;
     float: right;
 }
+
+footer {
+	width: 80%;
+    height: auto;
+    float: right;
+}
+
 
 .sidebar {
 	background-color: #9650FA;
@@ -141,4 +156,59 @@ main {
 	width: 95%;
 }
 
+.footer__elements {
+	margin-top: 10px;
+    text-align: right;
+}
+
+.footer__elements--icon {
+	margin-left: 1em;
+    display: inline-block;
+    color: #9650FA;
+    float: right;
+}
+
+.fas {
+	font-size: 1.5em;
+}
+
+
+@media (max-width: 350px) {
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 15px;
+}
+
+.sidebar {
+	background-color: #9650FA;
+	width: 100%;
+	height: auto;
+}
+
+.carousel-inner {
+	display: none;
+}
+
+.navbar-default {
+	background-color: #9650FA;
+	width: 100%;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-collapse {
+	background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #9650FA;
+}
+
+}
 

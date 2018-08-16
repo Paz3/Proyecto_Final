@@ -6,6 +6,14 @@ a:-webkit-any-link {
 	text-decoration: none;
 }
 
+a, a:visited {
+    color: #9650FA;
+}
+
+a:hover {
+    color: #46FAB4;
+}
+
 li {
 	list-style: none;
 }
@@ -95,6 +103,10 @@ footer {
 	padding-top: 20%;
 }
 
+.container {
+	width: 95%;
+}
+
 .navbar-default {
 	border-color: transparent;
 	background-color: #fff;
@@ -169,7 +181,6 @@ footer {
 	font-size: 1.5em;
 }
 
-
 @media (max-width: 350px) {
 
 h3 {
@@ -214,5 +225,113 @@ footer, main {
 	background-color: #9650FA;
 }
 
+.sidebar__elements {
+	text-align: center;
+	padding-left: 0;
 }
+
+
+}
+
+@media (min-width: 351px) and (max-width: 767px) {
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 15px;
+}
+
+footer, main {
+	width: 100%;
+}
+
+.sidebar {
+	background-color: #9650FA;
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding-bottom: 10%;
+}
+
+.carousel-inner, .carousel-control .glyphicon-chevron-right, .carousel-control, .glyphicon-chevron-left, .sidebar__elements--menu {
+	display: none;
+}
+
+.navbar-default {
+	background-color: #9650FA;
+	width: 100%;
+	position: absolute;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-collapse {
+	background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #9650FA;
+}
+
+.sidebar__elements {
+	text-align: center;
+	padding-left: 0;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+h3 {
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+h5 {
+	font-size: 1.8em;
+	position: absolute;
+}
+
+.carousel__text--third {
+    padding-left: 100px;
+}
+
+.sidebar__elements--logo {
+	max-width: 80%;
+}
+
+}
+
+@media (min-width: 1200px) and (max-width: 1507px) {
+
+h5 {
+	font-size: 2.5em;
+	position: absolute;
+}
+
+.carousel__text--third {
+    padding-left: 80px;
+    padding-left: 300px;
+}
+
+
+}
+
+@media (min-width: 767px) {
+
+#bs-example-navbar-collapse-1 .mainNav .menu__element {
+	display: none;
+}
+
+}
+
+
 

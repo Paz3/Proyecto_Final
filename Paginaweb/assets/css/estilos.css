@@ -82,6 +82,16 @@ footer {
     float: right;
 }
 
+.main__container_sub {
+	color: #9650FA;
+    font-weight: normal;
+    float: left;
+    font-size: 1.5em;
+}
+
+.jumbotron {
+	background-color: #46FAB4;
+}
 
 .sidebar {
 	background-color: #9650FA;
@@ -150,6 +160,8 @@ footer {
 
 .btn-lg {
     padding: 5px 10px;
+    margin-right: 10px;
+    margin-top: 10px;
     font-size: 18px;
     line-height: 1.3333333;
     border-radius: 6px;

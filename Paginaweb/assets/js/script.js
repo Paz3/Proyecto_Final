@@ -1,3 +1,9 @@
+$(function () {
+    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});
+
+
+
 // $(function() {
 
 // $('.navbar-nav').append(`

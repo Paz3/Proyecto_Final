@@ -20,6 +20,8 @@ li {
 
 h2{
     color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
 }
 
 
@@ -35,9 +37,6 @@ h1 {
 	margin-bottom: 40px;
 }
 
-h2 {
-	font-size: 15px;
-}
 
 h3 {
 	color: #fff;
@@ -74,6 +73,7 @@ main {
     width: 80%;
     height: auto;
     float: right;
+    
 }
 
 footer {
@@ -91,18 +91,20 @@ footer {
 
 .jumbotron {
 	background-color: #46FAB4;
+	margin-top: 30px;
 }
 
 .sidebar {
 	background-color: #9650FA;
 	width: 20%;
 	height: 100%;
-	position: absolute;
+	position: fixed;
 }
 
 .sidebar__elements {
-	padding-left: 33%;
+	width: 50%;
 	padding-top: 100px;
+	margin: 0 auto;
 }
 
 .sidebar__elements--logo {
@@ -119,16 +121,17 @@ footer {
 
 .navbar-default {
 	border-color: transparent;
-	background-color: #fff;
 	background-image: none;
+	background-color: transparent;
 	-webkit-box-shadow: none;
 	width: 80%;
     position: relative;
-    float: right;
 }
+
 
 .navbar-default .navbar-nav>li>a {
 	color: #9650FA;
+
 }
 
 .navbar-default .navbar-nav>li>a:hover, h4 {
@@ -232,6 +235,14 @@ footer {
 
 .p__col--intro {
 	padding-top: 6%;
+}
+
+.img-fluid {
+	width: 100%;
+}
+
+.col-md-3, .col-md-12 {
+	padding: 1px;
 }
 
 

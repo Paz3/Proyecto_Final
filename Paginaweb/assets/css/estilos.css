@@ -76,11 +76,16 @@ main {
     
 }
 
+img {
+	vertical-align: baseline;
+}
+
 footer {
 	width: 80%;
     height: auto;
     float: right;
 }
+
 
 .main__container_sub {
 	color: #9650FA;
@@ -165,9 +170,9 @@ footer {
     padding: 5px 10px;
     margin-right: 10px;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.3333333;
-    border-radius: 6px;
+    border-radius: 5px;
 }
 
 .carousel {
@@ -237,15 +242,42 @@ footer {
 	padding-top: 6%;
 }
 
-.img-fluid {
-	width: 100%;
-}
 
 .col-md-3, .col-md-12 {
-	padding: 1px;
+	padding: 5px;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+.modal-lg {
+    width: 30%;
+}
+
+.modal-header {
+	padding: 5px 15px 5px 15px;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 
+#profile-grid { overflow: auto; white-space: normal; }
+#profile-grid .profile { padding-top: 40px; }
+#profile-grid .panel { padding: 0 }
+#profile-grid .profile-name { font-weight: bold; }
+#profile-grid .thumbnail {margin-bottom:6px;}
+#profile-grid .panel-thumbnail { overflow: hidden; height: 170px;}
+#profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
+
+.panel-thumbnail:hover .thumb .img-responsive{
+filter: opacity(.5);
+transition: all 0.5s ease;
+-webkit-transform:scale(1.1);transform:scale(1.1);
+}
+
+.panel-thumbnail {
+overflow:hidden;
+}
 
 
 
@@ -271,6 +303,12 @@ footer, main {
 .col-xs-1 {
 	display: none;
  }
+
+   .col-md-3 {
+ 	width: 100%;
+ 	float: left;
+ }
+
 
 .sidebar {
 	background-color: #9650FA;
@@ -331,6 +369,12 @@ footer, main {
 .col-xs-1 {
 	display: none;
  }
+
+  .col-md-3 {
+ 	width: 50%;
+ 	float: left;
+ }
+
 
 .sidebar {
 	background-color: #9650FA;
@@ -393,6 +437,11 @@ h5 {
 	display: none;
  }
 
+ .col-md-3 {
+ 	width: 33%;
+ 	float: left;
+ }
+
 .carousel__text--third {
     padding-left: 100px;
 }
@@ -404,6 +453,14 @@ h5 {
 }
 
 @media (min-width: 1200px) and (max-width: 1507px) {
+
+h3 {
+	font-size: 18px;
+}
+
+h4 {
+	font-size: 16px;
+}
 
 h5 {
 	font-size: 2.5em;
@@ -422,6 +479,15 @@ h5 {
 
 #bs-example-navbar-collapse-1 .mainNav .menu__element {
 	display: none;
+}
+
+}
+
+@media (max-width: 460px) {
+
+.col-md-3 {
+	width: 100%;
+}
 }
 
 }

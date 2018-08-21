@@ -1,15 +1,13 @@
-$(function () {
-    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-});
+$(document).ready(function() {
+/* show lightbox when clicking a thumbnail */
+    $('a.thumb').click(function(event){
+    	event.preventDefault();
+    	var content = $('.modal-body');
+    	content.empty();
+      	var title = $(this).attr("title");
+      	$('.modal-title').html(title);      	
+      	content.html($(this).html());
+      	$(".modal-profile").modal({show:true});
+    });
 
-
-
-// $(function() {
-
-// $('.navbar-nav').append(`
-//             <li><a href="sobremi.html">Sobre mí</a></li>
-//             <li><a href="portafolio.html">Portafolio</a></li>
-//             <li><a href="clima.html">Clima</a></li>
-//             `)
-
-// });
+  });

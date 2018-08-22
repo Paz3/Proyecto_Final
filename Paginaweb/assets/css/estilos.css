@@ -41,8 +41,12 @@ h1 {
 h3 {
 	color: #fff;
 	font-weight: bolder;
+	font-size: 22px;
 }
 
+h4 {
+	font-size: 16px;
+}
 
 h3, h4 {
     margin-top: 3px;
@@ -92,6 +96,8 @@ footer {
     font-weight: normal;
     float: left;
     font-size: 1.5em;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .jumbotron {
@@ -222,6 +228,10 @@ footer {
     float: right;
 }
 
+.form-group {
+    margin-bottom: 0px;
+}
+
 .fas {
 	font-size: 1.5em;
 }
@@ -251,8 +261,13 @@ footer {
     margin: 0 auto;
 }
 
+.icon {
+    width: 10%;
+    padding-top: 20px;
+}
+
 .modal-lg {
-    width: 30%;
+    width: 45%;
 }
 
 .modal-header {
@@ -266,8 +281,12 @@ footer {
 #profile-grid .panel { padding: 0 }
 #profile-grid .profile-name { font-weight: bold; }
 #profile-grid .thumbnail {margin-bottom:6px;}
-#profile-grid .panel-thumbnail { overflow: hidden; height: 170px;}
+#profile-grid .panel-thumbnail { overflow: hidden; height: 130px;}
 #profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
+
+#map {
+    height: 300px;
+  }
 
 .panel-thumbnail:hover .thumb .img-responsive{
 filter: opacity(.5);
@@ -279,7 +298,24 @@ transition: all 0.5s ease;
 overflow:hidden;
 }
 
+.panel {
+	margin-bottom: 0px;
+}
 
+.form-control {
+
+    margin-bottom: 5px;
+ }
+
+
+.modal.in .modal-dialog {
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+.modal .fade .modal-profile .in {
+	padding-right: none;
+}
 
 
 @media (max-width: 350px) {
@@ -294,6 +330,10 @@ h4 {
 
 footer, main {
 	width: 100%;
+}
+
+.modal-lg {
+    width: 90%;
 }
 
 .col-xs-7 {
@@ -375,6 +415,13 @@ footer, main {
  	float: left;
  }
 
+   .col-sm-3 {
+ 	width: 50%;
+ 	float: left;
+ }
+.modal-lg {
+    width: 80%;
+}
 
 .sidebar {
 	background-color: #9650FA;
@@ -442,6 +489,10 @@ h5 {
  	float: left;
  }
 
+ .col-sm-3 {
+ 	width: 33%;
+ }
+
 .carousel__text--third {
     padding-left: 100px;
 }
@@ -488,6 +539,12 @@ h5 {
 .col-md-3 {
 	width: 100%;
 }
+
+.col-sm-3 {
+	width: 100%;
+}
+}
+
 }
 
 }

@@ -63,19 +63,12 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-<!--                       <ul class="nav navbar-nav navbar-right mainNav">
-                        <li class="menu__element"><a href="sobre.html">Sobre mí</a></li>
-                        <li class="menu__element"><a href="portafolio.html">Portafolio</a></li>
-                        <li class="menu__element"><a href="clima.html">Clima</a></li>
-                        <li class="menu__element"><a href="contacto.html">Contacto</a></li>
-                        <li class="menu__element"><a href="ubicacion.html">Ubicación</a></li>
-                      </ul> -->
 
 				<?php if ( has_nav_menu( 'header-menu' ) ) { ?>
 				<?php wp_nav_menu( array(
-					'theme_location' => 'header-menu',
-					'container' => false,
-					'menu_class' => 'nav navbar-nav'
+					'theme_location'	=> 'header-menu',
+					'container'			=> false,
+					'menu_class'		=> 'nav navbar-nav navbar-right mainNav'
 				)); ?>
 				<?php } ?>
 

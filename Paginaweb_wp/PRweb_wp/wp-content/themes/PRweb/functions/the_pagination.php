@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Page Navigation
+ * When is needed it shows links to navigate to next or previus page
+ *
+ * @since   1.1
+ * @version 1.0
+ * @see     https://wordpress.org/plugins/easy-wp-page-navigation/
+ */
 // Exit if accessed directly
 if ( ! defined( 'ABSPATH' ) )
 	exit;

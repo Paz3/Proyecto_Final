@@ -32,35 +32,18 @@
 	
 		<h3>Paz Romero S.</h3>
 		<h4>Diseñadora Gráfica</h4>
-
-<!-- 		<ul class="sidebar__elements--menu">
-			<li class="sidebar__elements--menu--first">
-				<a href="sobre.html"><h2>Sobre mí</h2></a>
-			</li>
-
-			<li class="sidebar__elements--menu--second">
-				<a href="portafolio.html"><h2>Portafolio</h2></a>
-			</li>
-
-			<li class="sidebar__elements--menu--third">
-				<a href="clima.html"><h2>Clima</h2></a>
-			</li>
-
-			<li class="sidebar__elements--menu--third">
-				<a href="contacto.html"><h2>Contacto</h2></a>
-			</li>
-
-			<li class="sidebar__elements--menu--third">
-				<a href="ubicacion.html"><h2>Ubicación</h2></a>
-			</li>
-		</ul> -->
 		
-			<?php if ( has_nav_menu( 'header-menu' ) ) { ?>
-				<?php wp_nav_menu( array(
-					'theme_location' => 'header-menu',
-					'container' => null
-				)); ?>
-			<?php } ?>
+		<?php if ( has_nav_menu( 'header-menu' ) ) { ?>
+			
+			<?php wp_nav_menu( array(
+				'theme_location'	=> 'header-menu',
+				'container'			=> null,
+				'menu_class'		=> 'sidebar__elements--menu',
+				'link_after'		=> '</h2>',
+				'link_before'		=> '<h2>'
+			)); ?>
+			
+		<?php } ?>
 
 	</div>
 </div>

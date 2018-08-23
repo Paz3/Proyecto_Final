@@ -41,6 +41,9 @@ function dl_enqueue_scripts() {
 	wp_register_script( 'script_js', get_theme_file_uri('/assets/js/script.js'), array('jquery-migrate'), null, null, true );
 	wp_register_script( 'map_google', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDl7HM_dOUOIavqWs9xw8y7YgPsa4-b1Ak&callback=initMap', null, null, true );
 
+	// Localize the script with new data
+	$wp_data = array( 'url' => get_template_directory_uri() );
+	wp_localize_script( 'app_js', 'wp_data', $wp_data );
 
 	/* Enqueue Scripts */
 	if ( $theme_options['slider']['flexslider'] ) {

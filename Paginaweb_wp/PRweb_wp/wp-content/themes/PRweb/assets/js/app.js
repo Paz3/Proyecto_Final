@@ -32,10 +32,11 @@ $(document).ready(function() {
 
 	var queryParams = ['exclude=[minutely,hourly,daily,alerts,flags]', 'lang=es', 'units=auto']
 	var image = {
-		'partly-cloudy-day': 'assets/images/cloud.png',
-		'clear-day':'assets/images/sun.png',
-		'clear-night':'assets/images/night.png',
-		'partly-cloudy-night':'assets/images/cloud.png'
+		'partly-cloudy-day': wp_data.url + '/assets/images/cloud.png',
+		'clear-day': wp_data.url + '/assets/images/sun.png',
+		'clear-night': wp_data.url + '/assets/images/night.png',
+		'partly-cloudy-night': wp_data.url + '/assets/images/cloud.png',
+		'rain': wp_data.url + '/assets/images/cloud.png'
 	}
 
 	$('#select').on('change', function(){

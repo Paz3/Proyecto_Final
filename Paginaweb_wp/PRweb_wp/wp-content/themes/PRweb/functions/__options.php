@@ -5,7 +5,7 @@
  * Sets all theme options
  *
  * @since   1.4.3
- * @version 1.0
+ * @version 1.1.1
  */
 $theme_options = array(
 	'wp_min_version'		=> '4.8',
@@ -16,6 +16,8 @@ $theme_options = array(
 	),
 	'slider'				=> array(
 		'flickity'			=> false,
-		'flexslider'		=> false,
-	)
+		'flexslider'		=> true,
+	),
+	'jQuery'				=> true,
+	'fontawesome'			=> true
 );

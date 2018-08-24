@@ -1,0 +1,169 @@
+0000.002 (0) Opened log file at time: Fri, 24 Aug 2018 19:10:08 +0000 on http://localhost:8080
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.13 WP: 4.9.8 PHP: 7.2.1 (apache2handler, Windows NT DESKTOP-LMMPIVI 6.2 build 9200 (Windows 8 Home Premium Edition) i586) MySQL: 5.6.34 WPLANG: es_CL Server: Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2h mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.2.1 mod_perl/2.0.8 Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.2M | 22M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 125286.4 MB
+0000.018 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.021 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.027 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1535049450, seconds_ago=88358)
+0000.039 (0) Set semaphore last lock (fd) time to 2018-08-24 19:10:08
+0000.041 (0) Semaphore lock (fd) complete
+0000.051 (0) Backup run: resumption=0, nonce=c56805082f2b, begun at=1535137808 (0s ago), job type=backup
+0000.056 (0) Scheduling a resumption (1) after 300 seconds (1535138108) in case this run gets aborted
+0000.071 (0) Checking if we have a zip executable available
+0000.076 (0) Creation of backups of directories: beginning
+0000.090 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.756 (0) Total entities for the zip file: 253 directories, 1606 files (0 skipped as non-modified), 27.6 MB
+0000.804 (0) Zip: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.852 (0) Zip: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.901 (0) Zip: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.951 (0) Zip: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.005 (0) Zip: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.010 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.9 MB, 1606 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.917 (0) Zip: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip.tmp: 600 files added (on-disk size: 3545.8 KB)
+0001.975 (0) Zip: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip.tmp: 700 files added (on-disk size: 3545.8 KB)
+0002.024 (0) Zip: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip.tmp: 800 files added (on-disk size: 3545.8 KB)
+0002.072 (0) Zip: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip.tmp: 900 files added (on-disk size: 3545.8 KB)
+0002.122 (0) Zip: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip.tmp: 1000 files added (on-disk size: 3545.8 KB)
+0002.128 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (15.7 MB, 1606 files batched, 501 (1002) added so far); re-opening (prior size: 3545.8 KB)
+0003.963 (0) Zip: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip.tmp: 1100 files added (on-disk size: 7833.3 KB)
+0004.012 (0) Zip: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip.tmp: 1200 files added (on-disk size: 7833.3 KB)
+0004.061 (0) Zip: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip.tmp: 1300 files added (on-disk size: 7833.3 KB)
+0004.124 (0) Zip: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip.tmp: 1400 files added (on-disk size: 7833.3 KB)
+0004.173 (0) Zip: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip.tmp: 1500 files added (on-disk size: 7833.3 KB)
+0004.178 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.6 MB, 1606 files batched, 501 (1503) added so far); re-opening (prior size: 7833.3 KB)
+0004.838 (0) Zip: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip.tmp: 1600 files added (on-disk size: 8717.9 KB)
+0005.142 (0) Created plugins zip (0) - 8865.8 KB in 5 s (1758.8 KB/s) (sha1: 316f8d1322f24db61cec0c1eb23268513e103c64, sha256: 9e6a997bab1606242dec35452d4edc1ba6a0a0ad72305094d9c4aa2fb59b8e2c)
+0005.149 (0) Beginning creation of dump of themes (split every: 400 MB)
+0005.239 (0) Total entities for the zip file: 19 directories, 159 files (0 skipped as non-modified), 10.1 MB
+0005.287 (0) Zip: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.788 (0) Created themes zip (0) - 9200.6 KB in 0.6 s (14828.2 KB/s) (sha1: 6b5cef8dce0a1b54f1f654b2379c952013474ffa, sha256: c96fbc79ae7430a603641b8a239128b986cb3895769bba5f5e6cc8240c570bf6)
+0005.799 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0005.801 (0) Looking for candidates to backup in: C:\Paz\Curso FrontEnd\2018\PROYECTO FINAL\Paginaweb_wp\PRweb_wp/wp-content/uploads
+0005.804 (0) finding files: 2018: adding to list (1)
+0005.806 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0005.962 (0) Total entities for the zip file: 2 directories, 60 files (0 skipped as non-modified), 1.6 MB
+0006.082 (0) Created uploads zip (0) - 1632.1 KB in 0.1 s (11126.8 KB/s) (sha1: cbf24ec5e3c1dee98e975d600bbfefc292458c1d, sha256: aea520fc83f7793f1dcad35fc5dfa520884b85b22400b27ded150bd85a7a6230)
+0006.091 (0) Beginning backup of other directories found in the content directory (index: 0)
+0006.093 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0006.098 (0) Looking for candidates to backup in: C:\Paz\Curso FrontEnd\2018\PROYECTO FINAL\Paginaweb_wp\PRweb_wp/wp-content
+0006.101 (0) finding files: index.php: adding to list (1)
+0006.103 (0) finding files: languages: adding to list (2)
+0006.106 (0) finding files: plugins: skipping: this is the plugins directory
+0006.108 (0) finding files: themes: skipping: this is the themes directory
+0006.110 (0) finding files: updraft: skipping: this is the updraft directory
+0006.113 (0) finding files: upgrade: skipping: excluded by options
+0006.115 (0) finding files: uploads: skipping: this is the uploads directory
+0006.171 (0) Total entities for the zip file: 3 directories, 15 files (0 skipped as non-modified), 1.8 MB
+0006.459 (0) Created others zip (0) - 533.1 KB in 0.3 s (1630.7 KB/s) (sha1: dec72e22617d68cbe725e804224e0c0b5df52787, sha256: 9a3668d7ff8b1a3d61539d9a971ac241f487edd5f29f551a727061d956e4265d)
+0006.472 (0) Saving backup status to database (elements: 8)
+0006.482 (0) Beginning creation of database dump (WordPress DB)
+0006.514 (0) Table pr_options: Total expected rows (approximate): 198
+0006.566 (0) Table pr_options: Total rows added: 198 in 0.05 seconds
+0006.582 (0) Table pr_options: finishing file (backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_options.table.gz - 109 KB)
+0006.609 (0) Table pr_users: Total expected rows (approximate): 0
+0006.626 (0) Table pr_users: Total rows added: 1 in 0.01 seconds
+0006.633 (0) Table pr_users: finishing file (backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_users.table.gz - 0.6 KB)
+0006.647 (0) Table pr_usermeta: Total expected rows (approximate): 27
+0006.681 (0) Table pr_usermeta: Total rows added: 27 in 0.03 seconds
+0006.688 (0) Table pr_usermeta: finishing file (backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_usermeta.table.gz - 1.2 KB)
+0006.706 (0) Table pr_commentmeta: Total expected rows (approximate): 0
+0006.722 (0) Table pr_commentmeta: Total rows added: 0 in 0.01 seconds
+0006.732 (0) Table pr_commentmeta: finishing file (backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_commentmeta.table.gz - 0.4 KB)
+0006.745 (0) Table pr_comments: Total expected rows (approximate): 0
+0006.764 (0) Table pr_comments: Total rows added: 1 in 0.01 seconds
+0006.776 (0) Table pr_comments: finishing file (backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_comments.table.gz - 0.8 KB)
+0006.789 (0) Table pr_links: Total expected rows (approximate): 0
+0006.805 (0) Table pr_links: Total rows added: 0 in 0.01 seconds
+0006.813 (0) Table pr_links: finishing file (backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_links.table.gz - 0.4 KB)
+0006.828 (0) Table pr_postmeta: Total expected rows (approximate): 143
+0006.844 (0) Table pr_postmeta: Total rows added: 143 in 0.01 seconds
+0006.860 (0) Table pr_postmeta: finishing file (backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_postmeta.table.gz - 2.7 KB)
+0006.872 (0) Table pr_posts: Total expected rows (approximate): 63
+0006.892 (0) Table pr_posts: Total rows added: 63 in 0.02 seconds
+0006.903 (0) Table pr_posts: finishing file (backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_posts.table.gz - 6.1 KB)
+0006.921 (0) Table pr_term_relationships: Total expected rows (approximate): 7
+0006.937 (0) Table pr_term_relationships: Total rows added: 7 in 0.01 seconds
+0006.944 (0) Table pr_term_relationships: finishing file (backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_term_relationships.table.gz - 0.4 KB)
+0006.963 (0) Table pr_term_taxonomy: Total expected rows (approximate): 1
+0006.980 (0) Table pr_term_taxonomy: Total rows added: 2 in 0.01 seconds
+0006.995 (0) Table pr_term_taxonomy: finishing file (backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_term_taxonomy.table.gz - 0.4 KB)
+0007.017 (0) Table pr_termmeta: Total expected rows (approximate): 0
+0007.032 (0) Table pr_termmeta: Total rows added: 0 in 0.01 seconds
+0007.050 (0) Table pr_termmeta: finishing file (backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_termmeta.table.gz - 0.4 KB)
+0007.076 (0) Table pr_terms: Total expected rows (approximate): 1
+0007.103 (0) Table pr_terms: Total rows added: 2 in 0.02 seconds
+0007.113 (0) Table pr_terms: finishing file (backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_terms.table.gz - 0.4 KB)
+0007.127 (0) Table pr_duplicator_packages: Total expected rows (approximate): 1
+0007.141 (0) Table pr_duplicator_packages: Total rows added: 1 in 0.01 seconds
+0007.150 (0) Table pr_duplicator_packages: finishing file (backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_duplicator_packages.table.gz - 1.4 KB)
+0007.165 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_options.table.gz (1/13): adding to final database dump
+0007.193 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_users.table.gz (2/13): adding to final database dump
+0007.197 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_usermeta.table.gz (3/13): adding to final database dump
+0007.200 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_commentmeta.table.gz (4/13): adding to final database dump
+0007.206 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_comments.table.gz (5/13): adding to final database dump
+0007.209 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_links.table.gz (6/13): adding to final database dump
+0007.214 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_postmeta.table.gz (7/13): adding to final database dump
+0007.218 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_posts.table.gz (8/13): adding to final database dump
+0007.224 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_term_relationships.table.gz (9/13): adding to final database dump
+0007.232 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_term_taxonomy.table.gz (10/13): adding to final database dump
+0007.235 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_termmeta.table.gz (11/13): adding to final database dump
+0007.240 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_terms.table.gz (12/13): adding to final database dump
+0007.243 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db-table-pr_duplicator_packages.table.gz (13/13): adding to final database dump
+0007.257 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db.gz: finished writing out complete database file (104 KB)
+0007.278 (0) Total database tables backed up: 13 (backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db.gz, size: 124059, sha256)
+0007.294 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0007.298 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0007.300 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0007.303 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-others.zip: others: This file has not yet been successfully uploaded: will queue
+0007.306 (0) backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db.gz: db: This file has not yet been successfully uploaded: will queue
+0007.311 (0) Saving backup history. Total backup size: 19.9 MB
+0007.320 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0007.336 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0007.345 (0) No remote despatch: user chose no remote backup service
+0007.350 (0) Recording as successfully uploaded: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-plugins.zip
+0007.363 (0) Recording as successfully uploaded: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-themes.zip
+0007.377 (0) Recording as successfully uploaded: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-uploads.zip
+0007.391 (0) Recording as successfully uploaded: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-others.zip
+0007.405 (0) Recording as successfully uploaded: backup_2018-08-24-1910_Paz_Romero_Web_c56805082f2b-db.gz
+0007.419 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0007.422 (0) Number of backup sets in history: 3; groups (db): 1
+0007.427 (0) Examining (for databases) backup set with group_id=0, nonce=c56805082f2b, datestamp=1535137808 (Aug 24 2018 19:10:08)
+0007.430 (0) This backup set is the backup set just made, so will not be deleted.
+0007.430 (0) Examining (for databases) backup set with group_id=0, nonce=b6ef7bb8570a, datestamp=1535049450 (Aug 23 2018 18:37:30)
+0007.430 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.435 (0) Examining (for databases) backup set with group_id=0, nonce=c3c68e5b3b60, datestamp=1534962933 (Aug 22 2018 18:35:33)
+0007.435 (0) 1534962933: db: this set includes a database (backup_2018-08-22-1835_Paz_Romero_Web_c3c68e5b3b60-db.gz); db count is now 2
+0007.435 (0) 1534962933: db: over retain limit (2); will delete this database
+0007.435 (0) Delete file: backup_2018-08-22-1835_Paz_Romero_Web_c3c68e5b3b60-db.gz, service=none
+0007.438 (0) Deleting local copy (backup_2018-08-22-1835_Paz_Romero_Web_c3c68e5b3b60-db.gz)
+0007.445 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.450 (0) Number of backup sets in history: 3; groups (files): 1
+0007.453 (0) Examining (for files) backup set with nonce=c56805082f2b, datestamp=1535137808 (Aug 24 2018 19:10:08)
+0007.453 (0) This backup set is the backup set just made, so will not be deleted.
+0007.458 (0) This backup set is the backup set just made, so will not be deleted.
+0007.458 (0) This backup set is the backup set just made, so will not be deleted.
+0007.458 (0) This backup set is the backup set just made, so will not be deleted.
+0007.458 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.461 (0) Examining (for files) backup set with nonce=b6ef7bb8570a, datestamp=1535049450 (Aug 23 2018 18:37:30)
+0007.461 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.461 (0) Examining (for files) backup set with nonce=c3c68e5b3b60, datestamp=1534962933 (Aug 22 2018 18:35:33)
+0007.461 (0) plugins: over retain limit (2); will delete this file entity
+0007.461 (0) themes: over retain limit (2); will delete this file entity
+0007.461 (0) uploads: over retain limit (2); will delete this file entity
+0007.461 (0) others: over retain limit (2); will delete this file entity
+0007.461 (0) Delete file: backup_2018-08-22-1835_Paz_Romero_Web_c3c68e5b3b60-plugins.zip, service=none
+0007.467 (0) Deleting local copy (backup_2018-08-22-1835_Paz_Romero_Web_c3c68e5b3b60-plugins.zip)
+0007.471 (0) Delete file: backup_2018-08-22-1835_Paz_Romero_Web_c3c68e5b3b60-themes.zip, service=none
+0007.478 (0) Deleting local copy (backup_2018-08-22-1835_Paz_Romero_Web_c3c68e5b3b60-themes.zip)
+0007.484 (0) Delete file: backup_2018-08-22-1835_Paz_Romero_Web_c3c68e5b3b60-uploads.zip, service=none
+0007.488 (0) Deleting local copy (backup_2018-08-22-1835_Paz_Romero_Web_c3c68e5b3b60-uploads.zip)
+0007.491 (0) Delete file: backup_2018-08-22-1835_Paz_Romero_Web_c3c68e5b3b60-others.zip, service=none
+0007.494 (0) Deleting local copy (backup_2018-08-22-1835_Paz_Romero_Web_c3c68e5b3b60-others.zip)
+0007.500 (0) This backup set is now empty; will remove from history
+0007.503 (0) Deleting log file (log.c3c68e5b3b60.txt)
+0007.506 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0007.515 (0) Resume backup (c56805082f2b, 0): finish run
+0007.524 (0) Decremented the semaphore (fd) by 1
+0007.529 (0) Semaphore (fd) unlocked
+0007.531 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0007.541 (0) No email will/can be sent - the user has not configured an email address.
+0007.543 (0) The backup apparently succeeded and is now complete

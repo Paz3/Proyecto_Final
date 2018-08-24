@@ -27,7 +27,7 @@
 
 <div class="sidebar">
 	<div class="sidebar__elements">
-		<a href="index.html"><img class="sidebar__elements--logo" src="<?php bloginfo('template_url')?>/assets/images/logo.png" alt=""></a>
+		<a href="<?php bloginfo('url') ?>/"><img class="sidebar__elements--logo" src="<?php bloginfo('template_url')?>/assets/images/logo.png" alt=""></a>
 
 	
 		<h3>Paz Romero S.</h3>

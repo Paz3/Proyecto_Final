@@ -1,18 +1,22 @@
+
 <?php get_header() ?>
+	<main>
+		<div class="container">
+			<div class="container-fluid">
+				<div class="row">
+					<h1><?php the_title() ?> <i class="far fa-star"></i></h1>
+				</div>
+			</div>
+		</div>
 
-<?php if ( have_posts() ) { ?>
-	<?php while ( have_posts() ) { ?>
-		<?php the_post(); ?>
+		<?php if ( have_posts() ) { ?>
+		<?php while ( have_posts() ) { ?>
+			<?php the_post(); ?>
+			<?php the_content() ?>
+			<?php } ?>
+		<?php } else { ?>
 
-		<?php the_post_thumbnail() ?>
-		<?php the_title() ?>
-		<time datetime="<?php the_time('Y-m-d') ?>"><?php the_time('d \d\e F \d\e Y') ?></time>
-		<?php the_content() ?>
-
-	<?php } ?>
-<?php } else { ?>
-	<!-- Content -->
-<?php } wp_reset_query(); ?>
-
-<?php get_sidebar() ?>
+		<?php } wp_reset_query(); ?>
+	</main>
+	
 <?php get_footer() ?>

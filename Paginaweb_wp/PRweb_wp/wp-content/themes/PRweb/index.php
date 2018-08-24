@@ -1,6 +1,20 @@
 <?php get_header() ?>
 
-<h1>Body de la página de inicio</h1>
-<?php get_sidebar() ?>
+	<ul>
+	<?php
+		$arg = array(
+			'post_type'		 => 'news',
+			'posts_per_page' => 10
+		);
+	
+		$get_arg = new WP_Query( $arg );
+	
+		while ( $get_arg->have_posts() ) {
+			$get_arg->the_post();
+		?>
+		<li><?php the_title() ?></li>
+		<?php } wp_reset_postdata();
+	?>
+	</ul>
 
 <?php get_footer() ?>

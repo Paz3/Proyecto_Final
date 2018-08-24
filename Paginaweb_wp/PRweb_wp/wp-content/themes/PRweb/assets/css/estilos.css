@@ -282,6 +282,7 @@ footer {
 #profile-grid .profile-name { font-weight: bold; }
 #profile-grid .thumbnail {margin-bottom:6px;}
 #profile-grid .panel-thumbnail { overflow: hidden; height: 130px;}
+#profile-grid .panel-thumbnail2 { overflow: hidden; max-height: 400px;}
 #profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
 
 #map {

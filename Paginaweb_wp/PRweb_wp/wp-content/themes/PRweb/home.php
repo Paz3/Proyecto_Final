@@ -54,6 +54,24 @@
 	</div>
 </main>
 
+<ul>
+<?php
+	$arg = array(
+		'post_type'		 => 'new',
+		'posts_per_page' => 10
+	);
+
+	$get_arg = new WP_Query( $arg );
+
+	while ( $get_arg->have_posts() ) {
+		$get_arg->the_post();
+	?>
+		
+		<!-- Content -->
+	<li><?php the_title() ?></li>
+	<?php } wp_reset_postdata();
+?>
+</ul>
 <?php get_footer() ?>
 
 
